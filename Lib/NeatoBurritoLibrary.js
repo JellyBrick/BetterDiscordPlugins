@@ -1379,8 +1379,6 @@ var NeatoLib = {
 
 	Keybinds: {
 
-		globalShortcut: require("electron").remote.globalShortcut,
-
 		attachListener: function(id, key, event, options = {}) {
 
 			if (key == undefined) return console.warn(id, "The passed key object is null!", key);
